@@ -1,0 +1,25 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <button id="home-btn" onclick="voltarParaInicio()">
+        <img src="assets/img/home.png" alt="Home" /> 
+    </button>
+
+    <div class="quiz-container" id="quiz-container">
+        <h1>Quiz Interativo</h1>
+        <div class="question-box">
+            <h2 id="question">Pergunta aqui...</h2>
+            <div id="options" class="options-container"></div>
+        </div>
+        <button id="next-btn" onclick="nextQuestion()">Próxima Pergunta</button>
+        <h2 id="score" style="display: none;"></h2>
+        <button id="restart-btn" onclick="restartQuiz()" style="display: none;">Refazer Quiz</button>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
