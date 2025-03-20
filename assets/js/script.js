@@ -83,5 +83,5 @@ function restartQuiz() {
 loadQuestion();
 
 function voltarParaInicio() {
-    window.location.href = "quiz.html"; 
+    window.location.href = "index.html"; 
 }
